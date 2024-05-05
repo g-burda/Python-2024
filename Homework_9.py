@@ -22,6 +22,7 @@ plt.show()
 #Excercise 9.1
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 n = 100
 random_points = np.random.rand(n, 2)
