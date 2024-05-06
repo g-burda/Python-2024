@@ -30,7 +30,7 @@ distance=np.linalg.norm(random_points, axis=1)
 colors = np.where(distance < 1, 'green', 'red')
 marker_areas = np.abs(random_points[:, 0]) + np.abs(random_points[:, 1])
 
-plt.scatter(random_points[:, 0], random_points[:, 1], c=colors, s=marker_areas*1000, alpha=0.5)
+plt.scatter(random_points[:, 0], random_points[:, 1], c=colors, s=marker_areas*50, alpha=0.5)
 plt.xlabel('X')
 plt.ylabel('Y')
 plt.title('Random Points')
